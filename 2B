@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+
+int a = 10, b = 20, c, d, e;
+
+d = c;
+c = a;
+e = b;
+b = d;
+a = e;
+
+printf ("A vale %d, B vale %d e C vale %d", a, b, c);
+
+return 0;
+
+}
