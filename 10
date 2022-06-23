@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+
+float cv, vt, sf, vc, vf;
+
+printf ("\n\tquantos carros foram vendidos:  ");
+scanf ("%f",& cv);
+
+printf ("\n\tinforme o valor total de vendas:  ");
+scanf ("%f",& vt);
+
+printf ("\n\tinforme o salario fixo:  ");
+scanf ("%f",& sf);
+
+printf ("\n\tqual o valor por carro vendido:  ");
+scanf ("%f",& vc);
+
+vf = sf + vc + vt*0.05;
+
+printf ("\n\to salario de josirleison é R$%.2f", vf);
+
+
+return 0;
+
+}
