@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+
+int a, b;
+
+a = (4+2)*2-4;
+b = 4+2*2-4;
+
+if (a == b){printf("é igual");}
+else {printf("nao é igual");}
+
+return 0;
+
+}
