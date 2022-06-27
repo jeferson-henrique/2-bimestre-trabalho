@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+
+int a=10,b, c;
+
+b = a + 1;
+a = b + 1;
+b = a + 1;
+
+printf("\n\tA %d", a);
+
+a = b + 1;
+
+printf("\n\tA %d   B %d", a, b);
+
+}
