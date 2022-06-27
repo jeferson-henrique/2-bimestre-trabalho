@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+
+int a=20,b=30,c;
+
+c=a+b;
+
+printf("\n\tC %d", c);
+
+b=10;
+
+printf("\n\tB %d   C %d", b, c);
+
+c=a+b;
+
+printf("\n\tA %d   B %d   C %d", a, b, c);
+}
