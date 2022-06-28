@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(){
+
+float te, nb, nn, nv, pb, pn, pv;
+
+printf("\n\tinsira o numero de eleitores na cidade: ");
+scanf("%f",&te);
+
+printf("\n\tinsira o numero de votos brancos: ");
+scanf("%f",&nb);
+
+printf("\n\tinsira o numero de votos nulos: ");
+scanf("%f",&nn);
+
+printf("\n\tinsira o numero de votos validos: ");
+scanf("%f",&nv);
+
+if(te < nb + nn + nv + 1){
+
+pb = nb*100/te;
+pn = nn*100/te;
+pv = nv*100/te;
+
+printf("\n\ta porcentagem de votos brancos e %.2f %", pb);
+printf("\n\ta porcentagem de votos nulos e %.2f %", pn);
+printf("\n\ta porcentagem de votos validos e %.2f %", pv);
+}
+
+else {printf("\n\touve alguma fraude");}
+
+
+
+}
