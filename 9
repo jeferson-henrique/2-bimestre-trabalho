@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+
+float sa, pr, a, sn;
+
+printf("\n\tInsira o salario atual do funcionario: ");
+scanf("%f", &sa);
+
+printf("\n\tInsira o percentual de reajuste: ");
+scanf("%f", &pr);
+
+a = pr*sa/100;
+sn = a + sa;
+
+printf("\n\tO salario novo e de: %.3f", sn);
+
+}
