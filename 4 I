@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int D1 , M1 , M2 , I ;
+    
+    D1 = 10*8;
+    M1 = D1*9;
+    M2 = 9*3;
+    I = M1+M2;
+    
+    printf("I = %d" ,I);
+    
+    return 0;
+}
