@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int D1 , D2 , M1 , M2 , G;
+    
+    D1 = 8/2;
+    D2 = 3*2;
+    M1 = D1*4;
+    M2 = 3*4;
+    G = 12+16+6;
+    
+    printf("G = %d" ,G);
+
+    return 0;
+}
