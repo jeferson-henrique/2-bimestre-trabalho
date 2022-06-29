@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int M1 , M2 , J ;
+    
+    M1 = 12*4;
+    M2 = 3*(-4);
+    
+    J = M1+M2;
+    
+    printf("J = %d" ,J);
+
+    return 0;
+
+
+}
