@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int M1 , M2 , M3 , R1 , R2 , E ;
+    
+    M1 = 2*9;
+    M2 = 2*(-2);
+    M3 = 16-2;
+    R1 = M1+M2;
+    R2 = M3/R1;
+    E = 3+R2;
+    
+    printf("E = %d" ,E);
+    
+    return 0;
+}
