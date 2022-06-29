@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int M1 , M2 ,F;
+    
+    M1 = 6/3;
+    M2 = 8/2;
+    F = M1+M2;
+    
+    printf("F = %d" ,F);
+
+    return 0;
+}
