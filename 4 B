@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int M1 , M2 , B;
+    
+    M1 = 6*3;
+    M2 = 6*2;
+    B = M1 + M2 + 2;
+    
+    printf("C = %d" ,B);
+
+    return 0;
+}
